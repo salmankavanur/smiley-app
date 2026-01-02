@@ -10,7 +10,7 @@
         <div class="hero-bg-pattern"></div>
         <div class="container hero-container">
             <div class="hero-content">
-                <span class="badge-pill">✨ Premium Care in Manjeri, Malappuram</span>
+                <span class="badge-pill">✨ Premium Dry Clean Service in Manjeri, Malappuram</span>
                 <h1 class="hero-title">
                     Wear it <br>
                     <span class="text-outline">Fresh.</span>
