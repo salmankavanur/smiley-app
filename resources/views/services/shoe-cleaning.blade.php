@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Premium Shoe Laundry & Cleaning in Manjeri | Sneaker Spa')
-@section('meta_description', 'Professional shoe cleaning service in Manjeri. We clean sneakers, leather shoes, boots, and suede. Restore your footwear to brand new condition today.')
-@section('meta_keywords', 'shoe cleaning manjeri, sneaker laundry manjeri, shoe washing service, shoe spa manjeri, best shoe cleaners')
+@section('title', 'Premium Shoe Laundry & Cleaning in Manjeri, Malappuram | Sneaker Spa')
+@section('meta_description', 'Professional shoe cleaning service in Manjeri, Malappuram. We clean sneakers, leather shoes, boots, and suede. Restore your footwear to brand new condition today.')
+@section('meta_keywords', 'shoe cleaning Manjeri, Malappuram, sneaker laundry Manjeri, Malappuram, shoe washing service, shoe spa Manjeri, Malappuram, best shoe cleaners')
 
 @section('content')
     <div class="service-page-wrapper">
@@ -20,7 +20,8 @@
                     </header>
 
                     <div class="service-body rich-text">
-                        <p>Give your kicks a second life with the <strong>best shoe laundry in Manjeri</strong>. From white
+                        <p>Give your kicks a second life with the <strong>best shoe laundry in Manjeri, Malappuram</strong>.
+                            From white
                             sneakers turning yellow to muddy trekking boots, we handle it all. Our shoe cleaning experts use
                             specialized chemicals and soft brushes to deep clean without damaging the material.</p>
                         <h3>We Clean:</h3>
@@ -89,7 +90,7 @@
                 <aside class="service-sidebar">
                     <div class="booking-widget sticky-widget">
                         <h3>Book Shoe Cleaning</h3>
-                        <p>Fast pickup & delivery in Manjeri.</p>
+                        <p>Fast pickup & delivery in Manjeri, Malappuram.</p>
                         <ul class="benefit-list">
                             <li>✓ 48h Turnaround</li>
                             <li>✓ Premium Detergents</li>

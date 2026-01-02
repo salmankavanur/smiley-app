@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Bridal Saree & Wedding Dress Dry Cleaning Manjeri')
-@section('meta_description', 'Trust your expensive wedding sarees and designer dresses with us. Specialized silk saree dry cleaning in Manjeri.')
-@section('meta_keywords', 'saree polishing manjeri, silk saree dry cleaning, wedding dress cleaning, designer wear laundry')
+@section('title', 'Bridal Saree & Wedding Dress Dry Cleaning Manjeri, Malappuram')
+@section('meta_description', 'Trust your expensive wedding sarees and designer dresses with us. Specialized silk saree dry cleaning in Manjeri, Malappuram.')
+@section('meta_keywords', 'saree polishing Manjeri, Malappuram, silk saree dry cleaning, wedding dress cleaning, designer wear laundry')
 
 @section('content')
     <div class="service-page-wrapper">
@@ -20,7 +20,7 @@
                     </header>
 
                     <div class="service-body rich-text">
-                        <p>We specialize in <strong>bridal saree and wedding dress dry cleaning in Manjeri</strong>. Whether
+                        <p>We specialize in <strong>bridal saree and wedding dress dry cleaning in Manjeri, Malappuram</strong>. Whether
                             it's heavy Kanchipuram silk, designer lehengas, or stone-work gowns, our gentle cleaning process
                             preserves the embroidery and fabric luster. Trusted by hundreds of brides for post-wedding
                             preservation.</p>
@@ -73,7 +73,7 @@
                 <aside class="service-sidebar">
                     <div class="booking-widget sticky-widget">
                         <h3>Book Saree Cleaning</h3>
-                        <p>Fast pickup & delivery in Manjeri.</p>
+                        <p>Fast pickup & delivery in Manjeri, Malappuram.</p>
                         <ul class="benefit-list">
                             <li>✓ 48h Turnaround</li>
                             <li>✓ Premium Detergents</li>

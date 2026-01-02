@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', $service->meta_title ?? $service->title . ' Service in Manjeri | Smiley Dry Cleaning')
-@section('meta_description', $service->meta_description ?? 'Professional ' . $service->title . ' service in Manjeri. Best care for your clothes. Book now.')
-@section('meta_keywords', $service->meta_keywords ?? 'Laundry Manjeri, ' . $service->title . ' Manjeri')
+@section('title', $service->meta_title ?? $service->title . ' Service in Manjeri, Malappuram | Smiley Dry Cleaning')
+@section('meta_description', $service->meta_description ?? 'Professional ' . $service->title . ' service in Manjeri, Malappuram. Best care for your clothes. Book now.')
+@section('meta_keywords', $service->meta_keywords ?? 'Laundry Manjeri, Malappuram, ' . $service->title . ' Manjeri, Malappuram')
 
 @section('content')
     <div class="service-page-wrapper">
@@ -76,7 +76,7 @@
                 <aside class="service-sidebar">
                     <div class="booking-widget sticky-widget">
                         <h3>Book {{ $service->title }}</h3>
-                        <p>Fast pickup & delivery in Manjeri.</p>
+                        <p>Fast pickup & delivery in Manjeri, Malappuram.</p>
                         <ul class="benefit-list">
                             <li>✓ 48h Turnaround</li>
                             <li>✓ Premium Detergents</li>

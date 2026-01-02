@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Curtain Dry Cleaning Service in Manjeri | Home Interior Cleaning')
-@section('meta_description', 'Professional curtain dry cleaning in Manjeri. Remove dust, stains, and odors from your drapes. Pickup and delivery available.')
-@section('meta_keywords', 'curtain cleaning manjeri, drapery cleaning, window blind cleaning, dry cleaners for curtains')
+@section('title', 'Curtain Dry Cleaning Service in Manjeri, Malappuram | Home Interior Cleaning')
+@section('meta_description', 'Professional curtain dry cleaning in Manjeri, Malappuram. Remove dust, stains, and odors from your drapes. Pickup and delivery available.')
+@section('meta_keywords', 'curtain cleaning Manjeri, Malappuram, drapery cleaning, window blind cleaning, dry cleaners for curtains')
 
 @section('content')
     <div class="service-page-wrapper">
@@ -20,7 +20,8 @@
                     </header>
 
                     <div class="service-body rich-text">
-                        <p>Revitalize your home with our <strong>curtain dry cleaning service in Manjeri</strong>. Curtains
+                        <p>Revitalize your home with our <strong>curtain dry cleaning service in Manjeri,
+                                Malappuram</strong>. Curtains
                             act as air filters, trapping dust and odors. Our process removes these contaminants while
                             preserving the color and texture of the fabric. We handle removal and re-installation upon
                             request.</p>
@@ -72,7 +73,7 @@
                 <aside class="service-sidebar">
                     <div class="booking-widget sticky-widget">
                         <h3>Book Curtain Cleaning</h3>
-                        <p>Fast pickup & delivery in Manjeri.</p>
+                        <p>Fast pickup & delivery in Manjeri, Malappuram.</p>
                         <ul class="benefit-list">
                             <li>✓ 48h Turnaround</li>
                             <li>✓ Premium Detergents</li>

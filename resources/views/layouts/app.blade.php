@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="@yield('meta_description', 'Smiley Dry Cleaning - Best Dry Cleaning & Shoe Laundry Service in Manjeri. Premium care for clothes, shoes, bags, and more.')">
+        content="@yield('meta_description', 'Smiley Dry Cleaning - Best Dry Cleaning & Shoe Laundry Service in Manjeri, Malappuram. Premium care for clothes, shoes, bags, and more.')">
     <meta name="keywords"
-        content="@yield('meta_keywords', 'Dry Cleaning Manjeri, Shoe Cleaning Manjeri, Laundry Service Manjeri, Smiley Dry Cleaning, Premium Laundry')">
-    <title>@yield('title', 'Smiley Dry Cleaning | Premium Live Laundry in Manjeri')</title>
+        content="@yield('meta_keywords', 'Dry Cleaning Manjeri, Malappuram, Shoe Cleaning Manjeri, Malappuram, Laundry Service Manjeri, Malappuram, Smiley Dry Cleaning, Premium Laundry')">
+    <title>@yield('title', 'Smiley Dry Cleaning | Premium Live Laundry in Manjeri, Malappuram')</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -100,7 +100,7 @@
                     </div>
                 </a>
                 <p class="footer-desc">Redefining laundry with speed, care, and a smile. Premium dry cleaning service in
-                    Manjeri.</p>
+                    Manjeri, Malappuram.</p>
                 <div class="social-links">
                     <a href="#" class="social-icon" aria-label="Instagram">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
@@ -131,7 +131,7 @@
                 <address>
                     Near Noor Masjid,<br>
                     Opp. SBI ATM, Chettiyangadi,<br>
-                    Areekod Road, MANJERI
+                    Areekod Road, Manjeri, Malappuram
                 </address>
                 <div class="contact-highlight">
                     Open: 9:00 AM - 9:00 PM

@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Premium Suit & Blazer Dry Cleaning Manjeri')
-@section('meta_description', 'Expert care for suits, blazers, and coats. Maintain the perfect fit and fabric quality with Smiley Dry Cleaning Manjeri.')
-@section('meta_keywords', 'suit dry cleaning manjeri, blazer cleaning, coat dry clean, formal wear cleaning')
+@section('title', 'Premium Suit & Blazer Dry Cleaning Manjeri, Malappuram')
+@section('meta_description', 'Expert care for suits, blazers, and coats. Maintain the perfect fit and fabric quality with Smiley Dry Cleaning Manjeri, Malappuram.')
+@section('meta_keywords', 'suit dry cleaning Manjeri, Malappuram, blazer cleaning, coat dry clean, formal wear cleaning')
 
 @section('content')
     <div class="service-page-wrapper">
@@ -21,7 +21,7 @@
 
                     <div class="service-body rich-text">
                         <p>Your power suit deserves professional care. Our <strong>suit and blazer dry cleaning in
-                                Manjeri</strong> focuses on maintaining the structure, lining, and fabric sheen. We treat
+                                Manjeri, Malappuram</strong> focuses on maintaining the structure, lining, and fabric sheen. We treat
                             collars and cuffs specially to remove sweat marks without damaging the delicate wool or blend
                             fabrics.</p>
                     </div>
@@ -74,7 +74,7 @@
                 <aside class="service-sidebar">
                     <div class="booking-widget sticky-widget">
                         <h3>Book Suit Cleaning</h3>
-                        <p>Fast pickup & delivery in Manjeri.</p>
+                        <p>Fast pickup & delivery in Manjeri, Malappuram.</p>
                         <ul class="benefit-list">
                             <li>✓ 48h Turnaround</li>
                             <li>✓ Premium Detergents</li>

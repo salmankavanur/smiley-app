@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Professional Carpet Cleaning Manjeri | Deep Stain Removal')
-@section('meta_description', 'Best carpet cleaning in Manjeri. We remove stubborn stains, dirt, and allergens from rugs and carpets. Book your slot today.')
-@section('meta_keywords', 'carpet cleaning manjeri, rug washing, carpet shampooing, floor cleaning service')
+@section('title', 'Professional Carpet Cleaning Manjeri, Malappuram | Deep Stain Removal')
+@section('meta_description', 'Best carpet cleaning in Manjeri, Malappuram. We remove stubborn stains, dirt, and allergens from rugs and carpets. Book your slot today.')
+@section('meta_keywords', 'carpet cleaning Manjeri, Malappuram, rug washing, carpet shampooing, floor cleaning service')
 
 @section('content')
     <div class="service-page-wrapper">
@@ -21,7 +21,8 @@
 
                     <div class="service-body rich-text">
                         <p>Restore the vibrant colors of your floor with our <strong>carpet and rug cleaning service in
-                                Manjeri</strong>. We use deep extraction technology to pull out dirt, sand, and stains
+                                Manjeri, Malappuram</strong>. We use deep extraction technology to pull out dirt, sand, and
+                            stains
                             buried deep within the fibers. Ideal for Persian rugs, synthetic carpets, and office flooring.
                         </p>
                     </div>
@@ -73,7 +74,7 @@
                 <aside class="service-sidebar">
                     <div class="booking-widget sticky-widget">
                         <h3>Book Carpet Cleaning</h3>
-                        <p>Fast pickup & delivery in Manjeri.</p>
+                        <p>Fast pickup & delivery in Manjeri, Malappuram.</p>
                         <ul class="benefit-list">
                             <li>✓ 48h Turnaround</li>
                             <li>✓ Premium Detergents</li>

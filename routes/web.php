@@ -16,15 +16,15 @@ Route::get('/about', function () {
 Route::get('/services/{slug}', function ($slug) {
     // Mapping for dedicated static pages
     $dedicatedViews = [
-        'steam-ironing-service-manjeri' => 'services.steam-ironing',
-        'shoe-laundry-cleaning-manjeri' => 'services.shoe-cleaning',
-        'blanket-quilt-cleaning-manjeri' => 'services.blanket-washing',
-        'bag-soft-toy-cleaning-manjeri' => 'services.bag-toys-cleaning',
-        'curtain-dry-cleaning-manjeri' => 'services.curtain-cleaning',
-        'carpet-rug-cleaning-manjeri' => 'services.carpet-cleaning',
-        'suit-blazer-dry-cleaning-manjeri' => 'services.suits-blazers',
-        'saree-wedding-dress-dry-cleaning-manjeri' => 'services.costumes-sarees',
-        'stain-removal-service-manjeri' => 'services.stain-removing',
+        'steam-ironing-service-Manjeri, Malappuram' => 'services.steam-ironing',
+        'shoe-laundry-cleaning-Manjeri, Malappuram' => 'services.shoe-cleaning',
+        'blanket-quilt-cleaning-Manjeri, Malappuram' => 'services.blanket-washing',
+        'bag-soft-toy-cleaning-Manjeri, Malappuram' => 'services.bag-toys-cleaning',
+        'curtain-dry-cleaning-Manjeri, Malappuram' => 'services.curtain-cleaning',
+        'carpet-rug-cleaning-Manjeri, Malappuram' => 'services.carpet-cleaning',
+        'suit-blazer-dry-cleaning-Manjeri, Malappuram' => 'services.suits-blazers',
+        'saree-wedding-dress-dry-cleaning-Manjeri, Malappuram' => 'services.costumes-sarees',
+        'stain-removal-service-Manjeri, Malappuram' => 'services.stain-removing',
     ];
 
     if (array_key_exists($slug, $dedicatedViews)) {

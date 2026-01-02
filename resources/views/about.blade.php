@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'About Us | Smiley Dry Cleaning Manjeri')
-@section('meta_description', 'Learn about Smiley Dry Cleaning in Manjeri. We offer premium laundry, shoe cleaning, and steam ironing services with a commitment to quality and speed.')
-@section('meta_keywords', 'About Smiley Dry Cleaning, Laundry Manjeri, Dry Cleaners Story, Best Laundry Manjeri')
+@section('title', 'About Us | Smiley Dry Cleaning Manjeri, Malappuram')
+@section('meta_description', 'Learn about Smiley Dry Cleaning in Manjeri, Malappuram. We offer premium laundry, shoe cleaning, and steam ironing services with a commitment to quality and speed.')
+@section('meta_keywords', 'About Smiley Dry Cleaning, Laundry Manjeri, Malappuram, Dry Cleaners Story, Best Laundry Manjeri, Malappuram')
 
 @section('content')
     <div class="about-page">
@@ -11,7 +11,7 @@
             <div class="container">
                 <h1 class="hero-title reveal-text">More Than Just Laundry,<br>We Deliver <span
                         class="highlight">Smiles.</span></h1>
-                <p class="hero-subtitle reveal-text-delay" style="text-align: center;">Based in Manjeri, serving with heart.
+                <p class="hero-subtitle reveal-text-delay" style="text-align: center;">Based in Manjeri, Malappuram, serving with heart.
                 </p>
             </div>
         </section>
@@ -22,7 +22,7 @@
                 <div class="story-grid">
                     <div class="story-content">
                         <h2>Our Story</h2>
-                        <p>Welcome to <strong>Smiley Dry Cleaning</strong>, Manjeri's most modern and customer-focused
+                        <p>Welcome to <strong>Smiley Dry Cleaning</strong>, Manjeri, Malappuram's most modern and customer-focused
                             laundry service. We started with a simple mission: to take the hassle out of laundry so you can
                             focus on what matters most.</p>
                         <p>We understand that your clothes are an investment. That's why we use state-of-the-art machinery,
@@ -64,7 +64,7 @@
         <!-- Location / CTA -->
         <section class="location-section">
             <div class="container text-center">
-                <h2>Visit Us in Manjeri</h2>
+                <h2>Visit Us in Manjeri, Malappuram</h2>
                 <p>Near Noor Masjid, Opp. SBI ATM, Chettiyangadi, Areekod Road</p>
                 <div class="cta-actions mt-4">
                     <a href="https://wa.me/919847677300" class="btn-primary">Chat with Us</a>

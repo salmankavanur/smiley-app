@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Best Steam Ironing Service in Manjeri | Wrinkle-Free Guarantee')
-@section('meta_description', 'Get crisp, professional steam ironing in Manjeri. Protect your clothes from burns and shine. Fast pickup and delivery available. Call Smiley Dry Cleaning now.')
-@section('meta_keywords', 'steam ironing manjeri, ironing service manjeri, clothes pressing manjeri, laundry service, dry cleaners near me')
+@section('title', 'Best Steam Ironing Service in Manjeri, Malappuram | Wrinkle-Free Guarantee')
+@section('meta_description', 'Get crisp, professional steam ironing in Manjeri, Malappuram. Protect your clothes from burns and shine. Fast pickup and delivery available. Call Smiley Dry Cleaning now.')
+@section('meta_keywords', 'steam ironing Manjeri, Malappuram, ironing service Manjeri, Malappuram, clothes pressing Manjeri, Malappuram, laundry service, dry cleaners near me')
 
 @section('content')
     <div class="service-page-wrapper">
@@ -21,7 +21,8 @@
 
                     <div class="service-body rich-text">
                         <p>Look sharp every day with Smiley Dry Cleaning's <strong>premium steam ironing service in
-                                Manjeri</strong>. We use industrial-grade steam press machines to ensure your clothes are
+                                Manjeri, Malappuram</strong>. We use industrial-grade steam press machines to ensure your
+                            clothes are
                             crisp, wrinkle-free, and perfectly finished. Unlike regular ironing, steam ironing protects the
                             fabric integrity while removing stubborn creases.</p>
                         <h3>Why Choose Our Steam Ironing?</h3>
@@ -90,7 +91,7 @@
                 <aside class="service-sidebar">
                     <div class="booking-widget sticky-widget">
                         <h3>Book Steam Ironing</h3>
-                        <p>Fast pickup & delivery in Manjeri.</p>
+                        <p>Fast pickup & delivery in Manjeri, Malappuram.</p>
                         <ul class="benefit-list">
                             <li>✓ 48h Turnaround</li>
                             <li>✓ Premium Detergents</li>

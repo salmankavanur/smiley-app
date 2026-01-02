@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Expert Stain Removal Service Manjeri | Ink, Oil, Wine Stains')
+@section('title', 'Expert Stain Removal Service Manjeri, Malappuram | Ink, Oil, Wine Stains')
 @section('meta_description', 'Professional stain removal service. We remove tough stains like ink, oil, and coffee from all types of fabrics. 99% Success rate.')
-@section('meta_keywords', 'stain removal manjeri, laundry stain remover, clothes spot cleaning')
+@section('meta_keywords', 'stain removal Manjeri, Malappuram, laundry stain remover, clothes spot cleaning')
 
 @section('content')
     <div class="service-page-wrapper">
@@ -21,7 +21,7 @@
 
                     <div class="service-body rich-text">
                         <p>Got a tough stain? Don't risk setting it further. Bring it to the <strong>stain removal experts
-                                in Manjeri</strong>. We treat ink, oil, grease, coffee, and wine stains using targeted
+                                in Manjeri, Malappuram</strong>. We treat ink, oil, grease, coffee, and wine stains using targeted
                             chemical agents that are tough on stains but gentle on clothes.</p>
                     </div>
 
@@ -72,7 +72,7 @@
                 <aside class="service-sidebar">
                     <div class="booking-widget sticky-widget">
                         <h3>Book Stain Removal</h3>
-                        <p>Fast pickup & delivery in Manjeri.</p>
+                        <p>Fast pickup & delivery in Manjeri, Malappuram.</p>
                         <ul class="benefit-list">
                             <li>✓ 48h Turnaround</li>
                             <li>✓ Premium Detergents</li>

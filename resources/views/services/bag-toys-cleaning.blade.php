@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Bag & Soft Toy Cleaning Service in Manjeri')
-@section('meta_description', 'Expert cleaning for travel bags, school bags, and soft toys in Manjeri. Safe, non-toxic, and hygienic cleaning process.')
-@section('meta_keywords', 'bag cleaning manjeri, trolley bag repair cleaning, soft toy washing, teddy bear cleaning manjeri')
+@section('title', 'Bag & Soft Toy Cleaning Service in Manjeri, Malappuram')
+@section('meta_description', 'Expert cleaning for travel bags, school bags, and soft toys in Manjeri, Malappuram. Safe, non-toxic, and hygienic cleaning process.')
+@section('meta_keywords', 'bag cleaning Manjeri, Malappuram, trolley bag repair cleaning, soft toy washing, teddy bear cleaning Manjeri, Malappuram')
 
 @section('content')
     <div class="service-page-wrapper">
@@ -21,8 +21,10 @@
 
                     <div class="service-body rich-text">
                         <p>Don't let dirt ruin your favorite travel bags or your child's teddy bear. We offer specialized
-                            <strong>cleaning for school bags, luggage, and soft toys in Manjeri</strong>. We use skin-safe,
-                            non-toxic detergents to ensure that toys are safe for children to play with after cleaning.</p>
+                            <strong>cleaning for school bags, luggage, and soft toys in Manjeri, Malappuram</strong>. We use
+                            skin-safe,
+                            non-toxic detergents to ensure that toys are safe for children to play with after cleaning.
+                        </p>
                     </div>
 
                     <!-- Visual Features Section -->
@@ -70,7 +72,7 @@
                 <aside class="service-sidebar">
                     <div class="booking-widget sticky-widget">
                         <h3>Book Bag Cleaning</h3>
-                        <p>Fast pickup & delivery in Manjeri.</p>
+                        <p>Fast pickup & delivery in Manjeri, Malappuram.</p>
                         <ul class="benefit-list">
                             <li>✓ 48h Turnaround</li>
                             <li>✓ Premium Detergents</li>

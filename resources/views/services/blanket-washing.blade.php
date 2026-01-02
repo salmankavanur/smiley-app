@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Hygienic Blanket & Quilt Cleaning in Manjeri | Smiley Dry Cleaning')
-@section('meta_description', 'Deep cleaning for blankets, quilts, and comforters in Manjeri. Remove allergens and dust mites with our specialized heavy laundry service.')
-@section('meta_keywords', 'blanket cleaning manjeri, quilt washing, comforter dry cleaning, heavy laundry service manjeri')
+@section('title', 'Hygienic Blanket & Quilt Cleaning in Manjeri, Malappuram | Smiley Dry Cleaning')
+@section('meta_description', 'Deep cleaning for blankets, quilts, and comforters in Manjeri, Malappuram. Remove allergens and dust mites with our specialized heavy laundry service.')
+@section('meta_keywords', 'blanket cleaning Manjeri, Malappuram, quilt washing, comforter dry cleaning, heavy laundry service Manjeri, Malappuram')
 
 @section('content')
     <div class="service-page-wrapper">
@@ -21,7 +21,8 @@
 
                     <div class="service-body rich-text">
                         <p>Sleeping on a clean bed is essential for health. Our <strong>heavy blanket and quilt cleaning
-                                service in Manjeri</strong> removes dust mites, allergens, and accumulated sweat. We use
+                                service in Manjeri, Malappuram</strong> removes dust mites, allergens, and accumulated
+                            sweat. We use
                             large-capacity commercial washers that standard home machines cannot match.</p>
                         <p>Perfect for comforters, duvets, mink blankets, and heavy quilts. Hygienically washed and
                             perfectly dried.</p>
@@ -74,7 +75,7 @@
                 <aside class="service-sidebar">
                     <div class="booking-widget sticky-widget">
                         <h3>Book Blanket Washing</h3>
-                        <p>Fast pickup & delivery in Manjeri.</p>
+                        <p>Fast pickup & delivery in Manjeri, Malappuram.</p>
                         <ul class="benefit-list">
                             <li>✓ 48h Turnaround</li>
                             <li>✓ Premium Detergents</li>

@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Smiley Dry Cleaning Manjeri | Best Dry Cleaning & Shoe Cleaning Service')
-@section('meta_description', 'Smiley Dry Cleaning in Manjeri offers premium dry cleaning, shoe cleaning, steam ironing, and laundry services. Fast pickup & delivery. Call +91 9847 677 300')
-@section('meta_keywords', 'Dry Cleaning Manjeri, Shoe Cleaning Manjeri, Laundry Service Manjeri, Steam Ironing Manjeri, Best Dry Cleaners Manjeri, Smiley Dry Cleaning')
+@section('title', 'Smiley Dry Cleaning Manjeri, Malappuram | Best Dry Cleaning & Shoe Cleaning Service')
+@section('meta_description', 'Smiley Dry Cleaning in Manjeri, Malappuram offers premium dry cleaning, shoe cleaning, steam ironing, and laundry services. Fast pickup & delivery. Call +91 9847 677 300')
+@section('meta_keywords', 'Dry Cleaning Manjeri, Malappuram, Shoe Cleaning Manjeri, Malappuram, Laundry Service Manjeri, Malappuram, Steam Ironing Manjeri, Malappuram, Best Dry Cleaners Manjeri, Malappuram, Smiley Dry Cleaning')
 
 @section('content')
     <!-- Hero Section -->
@@ -10,7 +10,7 @@
         <div class="hero-bg-pattern"></div>
         <div class="container hero-container">
             <div class="hero-content">
-                <span class="badge-pill">✨ Premium Care in Manjeri</span>
+                <span class="badge-pill">✨ Premium Care in Manjeri, Malappuram</span>
                 <h1 class="hero-title">
                     Wear it <br>
                     <span class="text-outline">Fresh.</span>
@@ -92,7 +92,7 @@
                     <div class="step-number">01</div>
                     <div class="step-icon">📦</div>
                     <h3>We Pickup</h3>
-                    <p>Schedule a pickup from your home or drop off at our Manjeri store.</p>
+                    <p>Schedule a pickup from your home or drop off at our Manjeri, Malappuram store.</p>
                 </div>
                 <div class="step-line"></div>
                 <div class="step-card" data-step="2">
@@ -143,17 +143,25 @@
                                             d="M2.5 11h16.2c1.7 0 2.8 1.9 1.9 3.4l-2.4 3.9A2 2 0 0 1 16.5 20h-11A2 2 0 0 1 3.5 18v-5.2c0-1.1.9-1.8 2-1.8Z" />
                                         <circle cx="8" cy="15" r="1.5" />
                                     </svg>
-                                @elseif($service->icon == 'carpet' || $service->icon == 'curtain')
-                                    <!-- Carpet / Curtain -->
+                                @elseif($service->icon == 'curtain')
+                                    <!-- Curtain -->
                                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
                                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M4 4h16v16H4z" />
-                                        <path d="M4 8h16" />
-                                        <path d="M4 12h16" />
-                                        <path d="M4 16h16" />
-                                        <path d="M8 4v16" />
-                                        <path d="M12 4v16" />
-                                        <path d="M16 4v16" />
+                                        <path d="M3 3h18v18H3z" />
+                                        <path d="M7 3v18" />
+                                        <path d="M17 3v18" />
+                                        <path d="M3 9c2 0 4-4 4-6" />
+                                        <path d="M17 3c0 2 2 6 4 6" />
+                                    </svg>
+                                @elseif($service->icon == 'carpet')
+                                    <!-- Carpet/Rug -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="2" y="3" width="20" height="18" rx="2" />
+                                        <path d="M2 9h20" />
+                                        <path d="M2 15h20" />
+                                        <path d="M8 3v18" />
+                                        <path d="M16 3v18" />
                                     </svg>
                                 @elseif($service->icon == 'blanket')
                                     <!-- Blanket (Layered) -->
@@ -171,12 +179,20 @@
                                         <line x1="3" y1="6" x2="21" y2="6" />
                                         <path d="M16 10a4 4 0 0 1-8 0" />
                                     </svg>
-                                @elseif($service->icon == 'suit' || $service->icon == 'saree')
-                                    <!-- Suit/Saree (Shirt/Hanger) -->
+                                @elseif($service->icon == 'suit')
+                                    <!-- Suit (Shirt/Hanger) -->
                                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
                                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                         <path
                                             d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z" />
+                                    </svg>
+                                @elseif($service->icon == 'saree')
+                                    <!-- Saree/Dress -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M12 4V2l-2-2-2 2v2" />
+                                        <path d="M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2" />
+                                        <path d="M12 4v7l2 2" />
                                     </svg>
                                 @elseif($service->icon == 'stain')
                                     <!-- Stain -->
