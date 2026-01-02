@@ -50,6 +50,68 @@
         </div>
     </div>
 
+    <!-- Shoe Cleaning Focus Section -->
+    <section class="shoe-section">
+        <div class="container shoe-container">
+            <div class="shoe-text">
+                <span class="badge-pill">Shoe Laundry Experts</span>
+                <h2>Give Your Kicks a <br><span class="highlight">Second Life.</span></h2>
+                <p>From favorite sneakers to premium leather shoes, we deep clean, restore, and protect your footwear. Walk with confidence again.</p>
+                <ul class="shoe-features">
+                    <li>✓ Deep Stain Removal</li>
+                    <li>✓ Odor Elimination</li>
+                    <li>✓ Sole Whitening</li>
+                </ul>
+                <a href="https://wa.me/919847677300?text=Hi, I need shoe cleaning service." class="btn-black mt-4">Book Shoe Spa</a>
+            </div>
+            <div class="shoe-visual">
+                <div class="floating-shoe-wrapper">
+                    <div class="shoe-glow"></div>
+                    <!-- Detailed Sneaker SVG -->
+                    <svg class="floating-shoe" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <filter id="dropshadow" x="-20%" y="-20%" width="140%" height="140%">
+                                <feGaussianBlur in="SourceAlpha" stdDeviation="5"/>
+                                <feOffset dx="0" dy="10" result="offsetblur"/>
+                                <feComponentTransfer>
+                                    <feFuncA type="linear" slope="0.3"/>
+                                </feComponentTransfer>
+                                <feMerge> 
+                                    <feMergeNode/>
+                                    <feMergeNode in="SourceGraphic"/> 
+                                </feMerge>
+                            </filter>
+                        </defs>
+                        <g filter="url(#dropshadow)">
+                            <!-- Shoe Body -->
+                            <path d="M20,80 Q20,100 50,100 L160,100 Q190,100 190,70 Q190,50 160,30 L100,20 Q60,10 40,40 Z" fill="#ffffff" stroke="#1a1a1a" stroke-width="3"/>
+                            <!-- Sole -->
+                            <path d="M20,85 Q20,105 50,105 L160,105 Q190,105 190,75" fill="none" stroke="#1a1a1a" stroke-width="8" stroke-linecap="round"/>
+                            <!-- Laces area -->
+                            <path d="M60,35 L120,25" stroke="#1a1a1a" stroke-width="2"/>
+                            <path d="M65,35 L75,25" stroke="#1a1a1a" stroke-width="2"/>
+                            <path d="M80,33 L90,23" stroke="#1a1a1a" stroke-width="2"/>
+                            <path d="M95,30 L105,20" stroke="#1a1a1a" stroke-width="2"/>
+                            <!-- Detail lines -->
+                            <path d="M140,40 Q160,50 170,70" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-dasharray="2,2"/>
+                            <!-- Logo on shoe -->
+                            <circle cx="150" cy="60" r="8" fill="#FFD600"/>
+                        </g>
+                        <!-- Sparkles -->
+                        <g class="sparkles">
+                            <path d="M10,20 L15,10 L20,20 L15,30 Z" fill="#FFD600">
+                                <animateTransform attributeName="transform" type="scale" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+                            </path>
+                            <path d="M180,10 L185,0 L190,10 L185,20 Z" fill="#FFD600">
+                                <animateTransform attributeName="transform" type="scale" values="0;1;0" dur="2.5s" repeatCount="indefinite"/>
+                            </path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Process Section -->
     <section id="process" class="process-section">
         <div class="container">
