@@ -29,11 +29,20 @@
     <header class="site-header">
         <div class="container header-container">
             <a href="{{ route('home') }}" class="brand-logo">
-                <div class="logo-circle">
-                    <span class="smiley-face">:)</span>
+                <div class="logo-icon">
+                    <!-- Custom SVG Smiley -->
+                    <svg width="100%" height="100%" viewBox="0 0 100 100" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="50" fill="#FFD600" />
+                        <circle cx="35" cy="40" r="6" fill="#1a1a1a" />
+                        <circle cx="65" cy="40" r="6" fill="#1a1a1a" />
+                        <path d="M30 65C30 65 40 75 50 75C60 75 70 65 70 65" stroke="#1a1a1a" stroke-width="6"
+                            stroke-linecap="round" />
+                    </svg>
                 </div>
-                <div class="logo-text">
-                    Smiley<span class="highlight">Dry</span>
+                <div class="logo-text-group">
+                    <span class="brand-name">Smiley</span>
+                    <span class="brand-tagline">Dry Cleaning Service</span>
                 </div>
             </a>
 
@@ -139,29 +148,29 @@
                     );
 
                     // Animate links staggering in
-                    gsap.fromTo(".nav-link", 
+                    gsap.fromTo(".nav-link",
                         { y: 20, opacity: 0 },
                         { y: 0, opacity: 1, stagger: 0.1, duration: 0.4, delay: 0.2 }
                     );
                 } else {
-                    gsap.to(nav, { 
-                        opacity: 0, 
-                        y: -20, 
-                        duration: 0.3, 
-                        onComplete: () => nav.classList.remove('active') 
+                    gsap.to(nav, {
+                        opacity: 0,
+                        y: -20,
+                        duration: 0.3,
+                        onComplete: () => nav.classList.remove('active')
                     });
                 }
             });
-            
+
             // Close menu on link click
             document.querySelectorAll('.nav-link').forEach(link => {
                 link.addEventListener('click', () => {
                     if (nav.classList.contains('active')) {
-                        gsap.to(nav, { 
-                            opacity: 0, 
-                            y: -20, 
-                            duration: 0.3, 
-                            onComplete: () => nav.classList.remove('active') 
+                        gsap.to(nav, {
+                            opacity: 0,
+                            y: -20,
+                            duration: 0.3,
+                            onComplete: () => nav.classList.remove('active')
                         });
                     }
                 });
@@ -170,21 +179,21 @@
 
         // Service Cards Reveal - Fixed (Moved Outside)
         gsap.utils.toArray('.service-anim').forEach((card, i) => {
-            gsap.fromTo(card, 
-                { 
-                    y: 50, 
-                    opacity: 0, 
+            gsap.fromTo(card,
+                {
+                    y: 50,
+                    opacity: 0,
                     scale: 0.95
                 },
                 {
                     scrollTrigger: {
                         trigger: ".services-section",
-                        start: "top 85%", 
+                        start: "top 85%",
                         toggleActions: "play none none reverse"
                     },
-                    y: 0, 
-                    opacity: 1, 
-                    scale: 1, 
+                    y: 0,
+                    opacity: 1,
+                    scale: 1,
                     duration: 0.8,
                     delay: i * 0.1,
                     ease: "power3.out",
