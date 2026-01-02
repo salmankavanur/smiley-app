@@ -92,12 +92,13 @@ a {
 /* Typography Utilities */
 .text-highlight {
     color: var(--primary);
-    -webkit-text-stroke: 1px var(--dark);
+    -webkit-text-stroke: 1.5px var(--dark);
+    paint-order: stroke fill;
 }
 
 .text-outline {
     color: transparent;
-    -webkit-text-stroke: 1px var(--dark);
+    -webkit-text-stroke: 1.5px var(--dark);
 }
 
 /* Header */
@@ -284,9 +285,12 @@ a {
 }
 
 .hero-title {
+    font-family: 'Space Grotesk', sans-serif;
+    /* Changed for better outline rendering */
     font-size: clamp(3.5rem, 6vw, 6rem);
     line-height: 1;
-    font-weight: 900;
+    font-weight: 700;
+    /* Adjusted weight for Space Grotesk */
     margin-bottom: 32px;
     color: var(--dark);
     letter-spacing: -2px;
