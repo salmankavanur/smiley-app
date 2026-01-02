@@ -262,7 +262,7 @@
         </div>
     </section>
 
-    <!-- Technical Process Section -->
+    <!-- Technical Process Section 
     <section class="tech-process-section">
         <div class="container">
             <div class="tech-grid">
@@ -324,6 +324,7 @@
             </div>
         </div>
     </section>
+    -->
 
     <!-- FAQ Section -->
     <section class="faq-section-home" style="padding: 100px 0; background-color: var(--body-bg);">
