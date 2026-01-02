@@ -22,6 +22,55 @@
                     <div class="service-body rich-text">
                         {!! $service->content !!}
                     </div>
+
+                    <!-- Visual Features Section -->
+                    @if($service->features)
+                    <div class="visual-feature-box">
+                        <div class="vf-content">
+                            <h3>Why Choose This Service?</h3>
+                            <ul class="vf-list">
+                                @foreach(json_decode($service->features) as $feature)
+                                    <li>
+                                        <span class="check-icon">✓</span> {{ $feature }}
+                                    </li>
+                                @endforeach
+                            </ul>
+                        </div>
+                        <div class="vf-image">
+                             <!-- Dynamic efficient icon/image fallback -->
+                             <div class="vf-icon-circle">
+                                 @if($service->icon == 'shoe') 👟 
+                                 @elseif($service->icon == 'iron') ♨️
+                                 @elseif($service->icon == 'blanket') 🛏️
+                                 @elseif($service->icon == 'bag') 🎒
+                                 @elseif($service->icon == 'curtain') 🪟
+                                 @elseif($service->icon == 'suit') 👔
+                                 @elseif($service->icon == 'saree') 👗
+                                 @else ✨ @endif
+                             </div>
+                        </div>
+                    </div>
+                    @endif
+
+                    <!-- FAQ Section -->
+                    @if($service->faqs)
+                    <div class="faq-section">
+                        <h3>Frequently Asked Questions</h3>
+                        <div class="faq-list">
+                            @foreach(json_decode($service->faqs) as $faq)
+                                <details class="faq-item">
+                                    <summary class="faq-question">
+                                        {{ $faq->question }}
+                                        <span class="toggle-icon">+</span>
+                                    </summary>
+                                    <div class="faq-answer">
+                                        <p>{{ $faq->answer }}</p>
+                                    </div>
+                                </details>
+                            @endforeach
+                        </div>
+                    </div>
+                    @endif
                 </div>
 
                 <aside class="service-sidebar">
@@ -159,6 +208,153 @@
             .service-layout {
                 grid-template-columns: 1fr;
             }
+        }
+
+        /* Visual Feature Box */
+        .visual-feature-box {
+            background: #fff;
+            border-radius: 24px;
+            padding: 40px;
+            margin: 40px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            border: 1px solid rgba(0,0,0,0.03);
+        }
+
+        .vf-content h3 {
+            font-family: var(--font-heading);
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: var(--dark);
+        }
+
+        .vf-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .vf-list li {
+            margin-bottom: 12px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            font-size: 1.1rem;
+        }
+
+        .check-icon {
+            color: var(--primary-dark);
+            margin-right: 12px;
+            font-weight: 800;
+        }
+
+        .vf-image {
+            flex-shrink: 0;
+            margin-left: 40px;
+        }
+
+        .vf-icon-circle {
+            width: 100px;
+            height: 100px;
+            background: var(--primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3.5rem;
+            box-shadow: 0 10px 20px rgba(255, 214, 0, 0.4);
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        @media (max-width: 600px) {
+            .visual-feature-box {
+                flex-direction: column-reverse;
+                text-align: center;
+            }
+            .vf-image {
+                margin-left: 0;
+                margin-bottom: 20px;
+            }
+            .vf-list li {
+                justify-content: center;
+            }
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            margin-top: 60px;
+        }
+
+        .faq-section h3 {
+            font-family: var(--font-heading);
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            color: var(--dark);
+        }
+
+        .faq-item {
+            background: #fff;
+            margin-bottom: 16px;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+        }
+
+        .faq-question {
+            padding: 24px;
+            font-weight: 700;
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.1rem;
+            color: var(--dark);
+        }
+        
+        /* Hide default summary marker */
+        .faq-question::-webkit-details-marker {
+            display: none;
+        }
+
+        .toggle-icon {
+            font-size: 1.5rem;
+            font-weight: 300;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item[open] .toggle-icon {
+            transform: rotate(45deg);
+        }
+
+        .faq-item[open] .faq-question {
+            background: #fff; /* Keep white */
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .faq-answer {
+            padding: 24px;
+            padding-top: 0;
+            color: #555;
+            line-height: 1.6;
+            background: #fff;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-5px); }
+            to { opacity: 1; transform: translateY(0); }
         }
     </style>
 @endsection
