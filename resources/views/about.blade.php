@@ -11,7 +11,8 @@
             <div class="container">
                 <h1 class="hero-title reveal-text">More Than Just Laundry,<br>We Deliver <span
                         class="highlight">Smiles.</span></h1>
-                <p class="hero-subtitle reveal-text-delay">Based in Manjeri, serving with heart.</p>
+                <p class="hero-subtitle reveal-text-delay" style="text-align: center;">Based in Manjeri, serving with heart.
+                </p>
             </div>
         </section>
 
