@@ -12,8 +12,9 @@
                     <span class="text-outline">Fresh.</span>
                     <span class="text-highlight">Smile.</span>
                 </h1>
-                <p class="hero-subtitle">Experience the next generation of garment care. We don't just clean; we revitalize your favorite clothes.</p>
-                
+                <p class="hero-subtitle">Experience the next generation of garment care. We don't just clean; we revitalize
+                    your favorite clothes.</p>
+
                 <div class="hero-actions">
                     <a href="#services" class="btn-primary large">
                         Explore Services
@@ -25,7 +26,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="hero-visual-area">
                 <div class="smiley-3d-wrapper">
                     <div class="smiley-face-3d">
@@ -56,7 +57,7 @@
                 <h2>Simple as 1, 2, 3</h2>
                 <p>We've streamlined the laundry process for you.</p>
             </div>
-            
+
             <div class="process-steps">
                 <div class="step-card" data-step="1">
                     <div class="step-number">01</div>
@@ -89,34 +90,79 @@
                 <h2 class="title-large">Our Expertise</h2>
                 <a href="tel:+919847677300" class="link-arrow">Need a custom quote?</a>
             </div>
-            
+
             <div class="bento-grid">
-                @foreach($services as $index => $service)
-                    @php
-                        // Assign grid classes based on index to create a "Bento" look
-                        $gridClass = '';
-                        if ($index === 0) $gridClass = 'span-2-row span-2-col'; // Feature item
-                        elseif ($index === 3) $gridClass = 'span-2-col'; 
-                    @endphp
-                    
-                    <div class="bento-card {{ $gridClass }} service-anim">
+                @foreach($services as $service)
+                    <div class="bento-card service-anim">
                         <div class="card-content">
                             <div class="service-icon-wrapper">
                                 <!-- SVGs based on icon name -->
                                 @if($service->icon == 'iron')
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 21h10a2 2 0 0 0 2-2V9.586a1 1 0 0 0-.293-.707l-3.586-3.586A1 1 0 0 0 14.414 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2z"></path><path d="M9 7h1"></path></svg>
+                                    <!-- Steam Iron -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M19 9.3V14c0 2.2-1.8 4-4 4H5.6c-2.4 0-4.3-2.1-3.9-4.5.3-1.6 1.7-2.9 3.3-2.9 1 0 2 .5 2.6 1.3l.8 1.1h5.2" />
+                                        <path d="M6 9.4 8.7 5c.4-.7 1.1-1 1.9-1h6.9c1.4 0 2.5 1.1 2.5 2.5v2.8" />
+                                    </svg>
                                 @elseif($service->icon == 'shoe')
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"></path><path d="M12 12v9h4.4a2.6 2.6 0 1 0 .6-5h-5"></path></svg>
+                                    <!-- Shoe -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M16 11V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v6" />
+                                        <path
+                                            d="M2.5 11h16.2c1.7 0 2.8 1.9 1.9 3.4l-2.4 3.9A2 2 0 0 1 16.5 20h-11A2 2 0 0 1 3.5 18v-5.2c0-1.1.9-1.8 2-1.8Z" />
+                                        <circle cx="8" cy="15" r="1.5" />
+                                    </svg>
                                 @elseif($service->icon == 'carpet' || $service->icon == 'curtain')
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="3"></rect><line x1="2" y1="12" x2="22" y2="12"></line><line x1="12" y1="2" x2="12" y2="22"></line><circle cx="7" cy="7" r="1.5"></circle><circle cx="17" cy="7" r="1.5"></circle><circle cx="7" cy="17" r="1.5"></circle><circle cx="17" cy="17" r="1.5"></circle></svg>
+                                    <!-- Carpet / Curtain -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M4 4h16v16H4z" />
+                                        <path d="M4 8h16" />
+                                        <path d="M4 12h16" />
+                                        <path d="M4 16h16" />
+                                        <path d="M8 4v16" />
+                                        <path d="M12 4v16" />
+                                        <path d="M16 4v16" />
+                                    </svg>
                                 @elseif($service->icon == 'blanket')
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                                    <!-- Blanket (Layered) -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M2 14h20" />
+                                        <path d="M5 14v-4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4" />
+                                        <path d="M2 14c0 3.3 3.6 6 8 6h4c4.4 0 8-2.7 8-6" />
+                                    </svg>
                                 @elseif($service->icon == 'bag')
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                                    <!-- Bag -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+                                        <line x1="3" y1="6" x2="21" y2="6" />
+                                        <path d="M16 10a4 4 0 0 1-8 0" />
+                                    </svg>
                                 @elseif($service->icon == 'suit' || $service->icon == 'saree')
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"></path></svg>
+                                    <!-- Suit/Saree (Shirt/Hanger) -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M20.38 3.46L16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z" />
+                                    </svg>
+                                @elseif($service->icon == 'stain')
+                                    <!-- Stain -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M12 2c-3 4-8 6-8 11 0 4.4 3.6 8 8 8s8-3.6 8-8c0-5-5-7-8-11z" />
+                                        <circle cx="10" cy="14" r="1" />
+                                        <circle cx="14" cy="12" r="1" />
+                                    </svg>
                                 @else
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
+                                    <!-- Generic Sparkle -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="m12 2 3.1 8.3L22 9.3l-5 4.9 1.2 6.8-6.2-3.3-6.2 3.3 1.2-6.8-5-4.9 6.9 1Z" />
+                                    </svg>
                                 @endif
                             </div>
                             <h3>{{ $service->title }}</h3>
@@ -147,7 +193,7 @@
 
     <script type="module">
         // GSAP Animations
-        
+
         // Hero Content Stagger
         gsap.from(".hero-content > *", {
             y: 50,
@@ -167,7 +213,7 @@
             repeat: -1,
             ease: "sine.inOut"
         });
-        
+
         gsap.to(".floating-item", {
             y: -30,
             duration: 2.5,

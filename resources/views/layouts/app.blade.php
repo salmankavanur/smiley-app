@@ -143,6 +143,30 @@
                         { y: 20, opacity: 0 },
                         { y: 0, opacity: 1, stagger: 0.1, duration: 0.4, delay: 0.2 }
                     );
+                    // Service Cards Reveal - Fixed
+                    gsap.utils.toArray('.service-anim').forEach((card, i) => {
+                        gsap.fromTo(card,
+                            {
+                                y: 50,
+                                opacity: 0,
+                                scale: 0.95
+                            },
+                            {
+                                scrollTrigger: {
+                                    trigger: ".services-section",
+                                    start: "top 85%", // Trigger earlier
+                                    toggleActions: "play none none reverse"
+                                },
+                                y: 0,
+                                opacity: 1,
+                                scale: 1,
+                                duration: 0.8,
+                                delay: i * 0.1, // Manual stagger for better control
+                                ease: "power3.out",
+                                overwrite: "auto" // Prevent conflicts
+                            }
+                        );
+                    });
                 } else {
                     gsap.to(nav, {
                         opacity: 0,

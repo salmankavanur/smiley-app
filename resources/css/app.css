@@ -479,71 +479,87 @@ a {
 }
 
 /* Services Bento Grid */
+/* Services Grid - Fixed Visibility */
 .services-section {
-    padding: 120px 0;
+    padding: 100px 0;
+    background-color: #fafafa;
 }
 
 .title-large {
     font-size: 3rem;
     font-weight: 800;
+    margin-bottom: 20px;
+    color: var(--dark);
+}
+
+.section-header {
     margin-bottom: 60px;
+}
+
+.link-arrow {
+    display: inline-block;
+    color: var(--text-sub);
+    font-weight: 500;
+    border-bottom: 1px solid var(--text-sub);
+    padding-bottom: 2px;
 }
 
 .bento-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: minmax(280px, auto);
-    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
 }
 
 .bento-card {
-    background: var(--light-surface);
-    border-radius: var(--radius-lg);
+    background: var(--white);
+    border-radius: var(--radius-md);
     padding: 32px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    transition: all 0.4s ease;
-    border: 1px solid transparent;
+    justify-content: flex-start;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, background-color 0.3s ease;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+    min-height: 260px;
 }
 
 .bento-card:hover {
-    background: var(--white);
+    transform: translateY(-8px);
     border-color: var(--primary);
-    box-shadow: var(--shadow-lg);
-    transform: translateY(-5px);
-}
-
-.span-2-col {
-    grid-column: span 2;
-}
-
-.span-2-row {
-    grid-row: span 2;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
 .service-icon-wrapper {
-    width: 60px;
-    height: 60px;
-    background: var(--white);
-    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    background: #FFF9D6;
+    /* Light yellow bg for icons */
+    border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 24px;
-    font-size: 24px;
     color: var(--dark);
+    transition: transform 0.3s ease;
+}
+
+.bento-card:hover .service-icon-wrapper {
+    transform: scale(1.1) rotate(5deg);
+    background: var(--primary);
 }
 
 .bento-card h3 {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-weight: 700;
     margin-bottom: 12px;
+    color: var(--dark);
 }
 
 .bento-card p {
-    color: var(--text-sub);
-    font-size: 0.95rem;
+    color: #555;
+    /* Darker gray for better readability */
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 /* CTA Section */
