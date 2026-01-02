@@ -113,7 +113,8 @@
             <div class="container text-center">
                 <h2>Visit Us in Manjeri, Malappuram</h2>
                 <p>Near Noor Masjid, Opp. SBI ATM, Chettiyangadi, Areekod Road</p>
-                <div class="cta-actions mt-4">
+                <div class="cta-actions mt-4" style="display: flex; justify-content: center; gap: 16px;">
+                    <a href="tel:+919847677300" class="btn-primary" style="background: var(--dark); color: var(--white); border: 1px solid var(--border-color);">Call Now</a>
                     <a href="https://wa.me/919847677300" class="btn-primary">Chat with Us</a>
                 </div>
             </div>
