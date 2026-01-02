@@ -609,7 +609,8 @@ a {
     align-items: center;
     justify-content: center;
     margin-bottom: 24px;
-    color: var(--dark);
+    color: #1a1a1a;
+    /* Always dark because bg is light yellow */
     transition: transform 0.3s ease;
 }
 
@@ -961,6 +962,11 @@ a {
     color: #000000;
 }
 
+.cta-content p {
+    color: #000000;
+    font-weight: 500;
+}
+
 .cta-actions {
     margin-top: 40px;
 }
@@ -982,7 +988,7 @@ a {
 }
 
 .footer-logo .text-white {
-    color: var(--white);
+    color: var(--primary);
 }
 
 .footer-logo .text-gray {
@@ -1013,8 +1019,9 @@ a {
     justify-content: center;
     transition: 0.3s;
     background: transparent;
-    color: var(--white);
+    color: #ffffff;
     /* Ensure SVG is white */
+    border-color: rgba(255, 255, 255, 0.2);
 }
 
 .social-icon svg {
