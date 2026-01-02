@@ -648,7 +648,8 @@ a {
 
 .read-more-link:hover {
     background: var(--primary);
-    color: var(--dark);
+    color: #000000;
+    /* Always black text on yellow bg */
     padding: 2px 6px;
     border-radius: 4px;
     border-bottom-color: transparent;
