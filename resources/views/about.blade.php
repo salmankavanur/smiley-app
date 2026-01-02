@@ -92,6 +92,12 @@
             color: var(--dark);
         }
 
+        .about-hero .hero-subtitle {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
         .story-section {
             padding: 80px 0;
         }
