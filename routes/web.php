@@ -12,3 +12,8 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 })->name('about');
+
+Route::get('/services/{slug}', function ($slug) {
+    $service = \App\Models\Service::where('slug', $slug)->firstOrFail();
+    return view('service.show', compact('service'));
+})->name('service.show');

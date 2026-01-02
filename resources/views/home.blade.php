@@ -194,7 +194,11 @@
                                     </svg>
                                 @endif
                             </div>
-                            <h3>{{ $service->title }}</h3>
+                            <h3>
+                                <a href="{{ route('service.show', $service->slug ?? 'home') }}" style="text-decoration:none; color:inherit;">
+                                    {{ $service->title }}
+                                </a>
+                            </h3>
                             <p>{{ $service->description }}</p>
                         </div>
                         <div class="card-footer">
