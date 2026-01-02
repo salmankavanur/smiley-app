@@ -1031,8 +1031,8 @@ a {
 
 .social-icon:hover {
     background: var(--primary);
-    color: var(--dark);
-    /* Dark icon on yellow bg */
+    color: #000000;
+    /* Always black on yellow bg */
     border-color: var(--primary);
 }
 
