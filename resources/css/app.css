@@ -680,11 +680,72 @@ a {
     font-size: 0.9rem;
 }
 
+/* WhatsApp Buttons Styles */
+.card-footer {
+    margin-top: auto;
+    padding-top: 20px;
+}
+
+.btn-wa-sm {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #f0fdf4;
+    /* Light green bg */
+    color: #166534;
+    /* Green text */
+    padding: 10px 16px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    border: 1px solid #dcfce7;
+    width: 100%;
+    justify-content: center;
+    text-decoration: none;
+    /* Ensure no underline */
+}
+
+.btn-wa-sm:hover {
+    background-color: #25D366;
+    /* WhatsApp Brand Green */
+    color: white;
+    border-color: #25D366;
+    transform: translateY(-2px);
+}
+
+.btn-whatsapp-large {
+    background: #ffffff;
+    color: #25D366;
+    padding: 16px 36px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-whatsapp-large:hover {
+    background: #f0fdf4;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cta-actions {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 /* Responsive */
 @media (max-width: 1024px) {
     .bento-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    /* ... existing media query starts ... */
 
     .span-2-col,
     .span-2-row {
