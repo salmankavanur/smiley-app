@@ -200,6 +200,9 @@
                                 </a>
                             </h3>
                             <p>{{ $service->description }}</p>
+                            <a href="{{ route('service.show', $service->slug ?? 'home') }}" class="read-more-link">
+                                Read More <span style="font-size: 1.2em; vertical-align: middle;">›</span>
+                            </a>
                         </div>
                         <div class="card-footer">
                             <a href="https://wa.me/919847677300?text={{ urlencode('Hi, I am interested in ' . $service->title . ' service.') }}"

@@ -584,6 +584,27 @@ a {
     /* Darker gray for better readability */
     font-size: 1rem;
     line-height: 1.6;
+    margin-bottom: 16px;
+    /* Added margin for spacing */
+}
+
+.read-more-link {
+    display: inline-block;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--dark);
+    text-decoration: none;
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 2px;
+    transition: all 0.2s ease;
+}
+
+.read-more-link:hover {
+    background: var(--primary);
+    color: var(--dark);
+    padding: 2px 6px;
+    border-radius: 4px;
+    border-bottom-color: transparent;
 }
 
 /* CTA Section */
