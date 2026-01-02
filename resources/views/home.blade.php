@@ -253,7 +253,7 @@
                     </ul>
 
                     <p style="margin-bottom: 32px; font-weight: 500; font-style: italic; color: var(--text-sub);">Explore our affordable pricing & packages specially designed for you.</p>
-                    <a href="{{ route('services.show', 'dry-cleaning') }}" class="btn-primary">View Pricing</a>
+                    <a href="https://wa.me/919847677300?text=Please%20share%20your%20pricing%20list." target="_blank" class="btn-primary">Get Price List</a>
                 </div>
                 <div class="offers-image">
                     <img src="{{ asset('images/happy_laundry_woman.png') }}" alt="Happy Customer with Laundry">
