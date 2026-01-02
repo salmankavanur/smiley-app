@@ -249,41 +249,61 @@
             <div class="faq-list" style="max-width: 800px; margin: 0 auto;">
                 <details class="faq-item">
                     <summary class="faq-question">
-                        Do you offer free pickup and delivery?
+                        How good is Smiley's shoe dry cleaning and shoe laundry service?
                         <span class="toggle-icon">+</span>
                     </summary>
                     <div class="faq-answer">
-                        <p>Yes, we offer free pickup and delivery in Manjeri and nearby areas for orders. Contact us via WhatsApp to check if your location is covered.</p>
+                        <p>We provide world-class care for all types of footwear including sports shoes, sneakers, leather shoes, suede, and nubuck. Our 5-step process involves deep cleaning, advanced stain removal, odor elimination, sole whitening, and anti-bacterial treatment to make your shoes look brand new.</p>
                     </div>
                 </details>
                 
                 <details class="faq-item">
                     <summary class="faq-question">
-                        What is your standard turnaround time?
+                        Does Smiley provide free home pickup and delivery?
                         <span class="toggle-icon">+</span>
                     </summary>
                     <div class="faq-answer">
-                        <p>Our standard service takes 3-4 days. We also offer express service for urgent requirements.</p>
+                        <p>Yes, we offer complimentary doorstep pickup and delivery services in Manjeri and surrounding areas. Simply book via WhatsApp or call us, and our rider will collect your garments at your convenience.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        What is the difference between laundry and dry cleaning?
+                        <span class="toggle-icon">+</span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Laundry uses water and detergents to clean common garments. Dry Cleaning uses specialized chemical solvents instead of water to clean delicate fabrics like silk, wool, and embellished outfits, preserving their texture and color without shrinkage.</p>
                     </div>
                 </details>
                 
                 <details class="faq-item">
                     <summary class="faq-question">
-                        Do you remove all kinds of stains?
+                        Does Smiley have any option of express delivery?
                         <span class="toggle-icon">+</span>
                     </summary>
                     <div class="faq-answer">
-                        <p>We use premium spotting agents to treat stains. While we successfully remove most stains, some old set-in stains might not be completely removable without damaging the fabric.</p>
+                        <p>Absolutely! We understand urgent needs. We offer an Express Service with 24-hour turnaround for laundry and dry cleaning. Please mention this requirement when booking.</p>
                     </div>
                 </details>
                 
                 <details class="faq-item">
                     <summary class="faq-question">
-                        How can I pay for the service?
+                        Does Smiley remove stains in dry cleaning service?
                         <span class="toggle-icon">+</span>
                     </summary>
                     <div class="faq-answer">
-                        <p>You can pay via Cash, UPI (GPay/PhonePe), or Bank Transfer upon delivery.</p>
+                        <p>Yes, we use premium, fabric-safe spotting agents to treat tough stains like oil, ink, curry, and wine. While we successfully remove 99% of stains, the outcome depends on the nature and age of the stain.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        Does Smiley provide leather dry cleaning and coloring service?
+                        <span class="toggle-icon">+</span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Yes, we are experts in leather care. We provide cleaning, conditioning, polishing, and color restoration services for leather jackets, bags, wallets, and shoes to bring back their original shine and softness.</p>
                     </div>
                 </details>
             </div>

@@ -70,29 +70,38 @@
                 <div class="faq-list" style="max-width: 800px; margin: 0 auto; margin-top: 40px;">
                     <details class="faq-item">
                         <summary class="faq-question">
-                            Do you offer free pickup and delivery?
+                            Why is Smiley the best dry cleaner in Manjeri?
                             <span class="toggle-icon">+</span>
                         </summary>
                         <div class="faq-answer">
-                            <p>Yes, we offer free pickup and delivery in Manjeri and nearby areas. Contact us via WhatsApp to schedule.</p>
+                            <p>We combine advanced technology with traditional care. We use premium eco-friendly detergents that are tough on stains but gentle on fabrics (and your skin). Plus, our 5-star customer service ensures a hassle-free experience every time.</p>
                         </div>
                     </details>
                     <details class="faq-item">
                         <summary class="faq-question">
-                            What is your standard turnaround time?
+                            What are the hygiene precautions that Smiley takes?
                             <span class="toggle-icon">+</span>
                         </summary>
                         <div class="faq-answer">
-                            <p>Standard service takes 3-4 days. Express service is available for urgent needs.</p>
+                            <p>Hygiene is our top priority. We follow a strict "No-Mix" policy—your clothes are never washed with another customer's. We also sanitize our machines daily and use antibacterial treatments during the final rinse.</p>
                         </div>
                     </details>
                     <details class="faq-item">
                         <summary class="faq-question">
-                            What services do you offer?
+                            How do I book a service?
                             <span class="toggle-icon">+</span>
                         </summary>
                         <div class="faq-answer">
-                            <p>We offer Dry Cleaning, Steam Ironing, Shoe Laundry, Carpet Cleaning, Curtain Cleaning, and Bag/Toy Cleaning.</p>
+                            <p>It's simple! You don't need to drive to us. Just click the "Book Pickup" button or WhatsApp us. Schedule a pickup time, and our rider will collect your laundry from your doorstep.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">
+                            Does Smiley provide curtain and carpet cleaning?
+                            <span class="toggle-icon">+</span>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>Yes! We offer specialized deep cleaning for heavy items like curtains, carpets, blankets, and quilts. We can even unmount and remount curtains for your convenience.</p>
                         </div>
                     </details>
                 </div>
