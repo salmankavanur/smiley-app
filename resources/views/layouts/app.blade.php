@@ -80,14 +80,31 @@
         <div class="container footer-content">
             <div class="footer-left">
                 <a href="#" class="brand-logo footer-logo">
-                    <span class="logo-text text-white">Smiley<span class="highlight">Dry</span></span>
+                    <div class="logo-icon">
+                        <!-- Custom SVG Smiley (White for Footer) -->
+                        <svg width="100%" height="100%" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="50" fill="#FFD600"/>
+                            <circle cx="35" cy="40" r="6" fill="#1a1a1a"/>
+                            <circle cx="65" cy="40" r="6" fill="#1a1a1a"/>
+                            <path d="M30 65C30 65 40 75 50 75C60 75 70 65 70 65" stroke="#1a1a1a" stroke-width="6" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text-group">
+                        <span class="brand-name text-white">Smiley</span>
+                        <span class="brand-tagline text-gray">Dry Cleaning Service</span>
+                    </div>
                 </a>
-                <p class="footer-desc">Redefining laundry with speed, care, and a smile. Premium dry cleaning service in
-                    Manjeri.</p>
+                <p class="footer-desc">Redefining laundry with speed, care, and a smile. Premium dry cleaning service in Manjeri.</p>
                 <div class="social-links">
-                    <a href="#" class="social-icon">IG</a>
-                    <a href="#" class="social-icon">FB</a>
-                    <a href="#" class="social-icon">WA</a>
+                    <a href="#" class="social-icon" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </a>
+                    <a href="https://wa.me/919847677300" class="social-icon" aria-label="WhatsApp">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                    </a>
                 </div>
             </div>
             <div class="footer-contact">
@@ -103,8 +120,10 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; {{ date('Y') }} Smiley Dry Cleaning. All rights reserved.</p>
-            <p class="dev-credit">Designed with <span style="color: var(--primary-color)">♥</span></p>
+            <div class="container footer-bottom-inner">
+                <p>&copy; {{ date('Y') }} Smiley Dry Cleaning. All rights reserved.</p>
+                <p class="dev-credit">Designed with <span style="color: var(--primary)">♥</span></p>
+            </div>
         </div>
     </footer>
 
