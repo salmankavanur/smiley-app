@@ -273,9 +273,130 @@ a {
     border-color: var(--border-color) !important;
 }
 
-[data-theme="dark"] .faq-question {
-    background-color: var(--card-bg) !important;
-    color: var(--dark) !important;
+/* Offers Section */
+.offers-section {
+    padding: 100px 0;
+    background-color: var(--section-bg);
+    overflow: hidden;
+}
+
+.offers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.offers-content h2 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    color: var(--text-lead);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.offers-list {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.offers-list li {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: var(--dark);
+    /* White in dark mode */
+}
+
+.offers-image img {
+    width: 100%;
+    border-radius: 32px;
+    box-shadow: var(--shadow-lg);
+}
+
+/* Technical Process Section */
+.tech-process-section {
+    padding: 100px 0;
+    background-color: var(--body-bg);
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.tech-intro h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+    line-height: 1.2;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 32px;
+    position: relative;
+    opacity: 0;
+    /* For animation */
+    transform: translateY(20px);
+}
+
+.timeline-number {
+    width: 60px;
+    height: 60px;
+    background: var(--primary);
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.timeline-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    transform: translateX(-50%);
+    width: 2px;
+    height: calc(100% - 28px);
+    background: var(--border-color);
+    z-index: 1;
+}
+
+.timeline-content h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+    color: var(--text-lead);
+}
+
+.timeline-content p {
+    color: var(--text-sub);
+    font-size: 0.95rem;
+}
+
+@media (max-width: 900px) {
+
+    .offers-grid,
+    .tech-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .offers-image {
+        order: -1;
+    }
 }
 
 .btn-content {

@@ -238,6 +238,93 @@
         </div>
     </section>
 
+    <!-- Offers Section -->
+    <section class="offers-section">
+        <div class="container">
+            <div class="offers-grid">
+                <div class="offers-content">
+                    <p style="color:var(--primary-dark); font-weight:800; letter-spacing:2px; margin-bottom:16px;">WHY SMILEY?</p>
+                    <h2>More Reasons to Experience Our Services</h2>
+                    
+                    <ul class="offers-list">
+                        <li>🔥 Flat 20% Off On 1st Order</li>
+                        <li>📅 Attractive Membership Plans</li>
+                        <li>🚚 Free Pickup & Delivery</li>
+                    </ul>
+
+                    <p style="margin-bottom: 32px; font-weight: 500; font-style: italic; color: var(--text-sub);">Explore our affordable pricing & packages specially designed for you.</p>
+                    <a href="{{ route('services.show', 'dry-cleaning') }}" class="btn-primary">View Pricing</a>
+                </div>
+                <div class="offers-image">
+                    <img src="{{ asset('images/happy_laundry_woman.png') }}" alt="Happy Customer with Laundry">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Process Section -->
+    <section class="tech-process-section">
+        <div class="container">
+            <div class="tech-grid">
+                <div class="tech-intro">
+                    <p style="color:var(--primary-dark); font-weight:800; letter-spacing:2px; margin-bottom:16px;">OUR PROCESS</p>
+                    <h2>6-Stage Process for Unmatched Garment Care</h2>
+                    <p class="rich-text" style="color: var(--text-lead); font-size: 1.1rem; margin-bottom: 32px;">Specialized machinery & skilled experts for each stage makes us the best laundry & dry cleaner near you.</p>
+                    
+                    <div style="background:var(--card-bg); padding:32px; border-radius:24px; border:1px solid var(--border-color);">
+                        <h4 style="margin-bottom:16px; color:var(--dark);">We use Italian Technology</h4>
+                        <p style="font-size:0.9rem; color:var(--text-sub);">Our machines are imported from Italy to ensure the delicate handling of your premium garments using eco-friendly solvents.</p>
+                    </div>
+                </div>
+                
+                <div class="process-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-number">1</div>
+                        <div class="timeline-content">
+                            <h4>Sorting & Inspection</h4>
+                            <p>Segregation basis care label, fabric type and color.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">2</div>
+                        <div class="timeline-content">
+                            <h4>Stain Treatment</h4>
+                            <p>Italian spotting machines | American stain removing solutions.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">3</div>
+                        <div class="timeline-content">
+                            <h4>Processing</h4>
+                            <p>World-Renowned Italian Dry cleaning machines | German Eco friendly cleaning solutions.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">4</div>
+                        <div class="timeline-content">
+                            <h4>Finishing</h4>
+                            <p>Unique Steam Ironing equipment for each garment type.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">5</div>
+                        <div class="timeline-content">
+                            <h4>Quality Check</h4>
+                            <p>Meticulous inspection of each item by experts.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-number">6</div>
+                        <div class="timeline-content">
+                            <h4>Packing</h4>
+                            <p>Folded, Hanger or Vacuum packing as per your stated preference.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- FAQ Section -->
     <section class="faq-section-home" style="padding: 100px 0; background-color: var(--body-bg);">
         <div class="container">
