@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title', 'Smiley Dry Cleaning Manjeri | Best Dry Cleaning & Shoe Cleaning Service')
+@section('meta_description', 'Smiley Dry Cleaning in Manjeri offers premium dry cleaning, shoe cleaning, steam ironing, and laundry services. Fast pickup & delivery. Call +91 9847 677 300')
+@section('meta_keywords', 'Dry Cleaning Manjeri, Shoe Cleaning Manjeri, Laundry Service Manjeri, Steam Ironing Manjeri, Best Dry Cleaners Manjeri, Smiley Dry Cleaning')
+
 @section('content')
     <!-- Hero Section -->
     <section class="hero-section">
