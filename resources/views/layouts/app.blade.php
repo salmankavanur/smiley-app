@@ -21,6 +21,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 
+    <!-- Theme Init -->
+    <script>
+        (function() {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+        })();
+    </script>
+    
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
@@ -58,6 +66,12 @@
                     <li><a href="{{ route('home') }}#services" class="nav-link">Services</a></li>
                     <li><a href="{{ route('home') }}#process" class="nav-link">Process</a></li>
                     <li><a href="{{ route('about') }}" class="nav-link">About</a></li>
+                    <li>
+                        <button id="theme-toggle" class="btn-icon" aria-label="Toggle Theme">
+                            <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2"/><path d="M12 21v2"/><path d="M4.22 4.22l1.42 1.42"/><path d="M18.36 18.36l1.42 1.42"/><path d="M1 12h2"/><path d="M21 12h2"/><path d="M4.22 19.78l1.42-1.42"/><path d="M18.36 5.64l1.42-1.42"/></svg>
+                            <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                        </button>
+                    </li>
                     <li>
                         <a href="tel:+919847677300" class="btn-primary glow-effect">
                             <span class="btn-content">Book Pickup

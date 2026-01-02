@@ -15,6 +15,32 @@
     --font-main: 'Outfit', sans-serif;
     --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
     --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+    /* Semantic Colors */
+    --card-bg: #ffffff;
+    --body-bg: #ffffff;
+    --section-bg: #fafafa;
+    --border-color: rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] {
+    --primary: #FFD600;
+    --primary-dark: #b39500;
+    --dark: #ffffff;
+    --dark-surface: #ffffff;
+    /* Inverted for some uses? Careful. */
+    --light-surface: #121212;
+    --white: #0a0a0a;
+    --gray-soft: #262626;
+    --text-lead: #f4f4f5;
+    --text-sub: #a1a1aa;
+
+    --card-bg: #1e1e1e;
+    --body-bg: #121212;
+    --section-bg: #000000;
+    --border-color: rgba(255, 255, 255, 0.1);
+    --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
 }
 
 *,
@@ -32,11 +58,11 @@ html.smooth-scroll {
 body {
     font-family: var(--font-main);
     color: var(--text-lead);
-    background-color: var(--white);
+    background-color: var(--body-bg);
     line-height: 1.5;
     overflow-x: hidden;
     cursor: none;
-    /* Custom cursor takes over */
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 a {
@@ -277,7 +303,7 @@ a {
     background: #FFFAF0;
     /* light yellow bg */
     border: 1px solid var(--primary);
-    color: var(--dark);
+    color: #000000;
     padding: 8px 16px;
     border-radius: 100px;
     font-size: 14px;
@@ -434,7 +460,7 @@ a {
 /* Process Section */
 .process-section {
     padding: 100px 0;
-    background-color: #fafafa;
+    background-color: var(--section-bg);
 }
 
 .section-header {
@@ -483,7 +509,7 @@ a {
     left: 50%;
     transform: translateX(-50%);
     background: var(--primary);
-    color: var(--dark);
+    color: #000000;
     font-weight: 800;
     padding: 8px 16px;
     border-radius: 20px;
@@ -506,7 +532,7 @@ a {
 /* Services Grid - Fixed Visibility */
 .services-section {
     padding: 100px 0;
-    background-color: #fafafa;
+    background-color: var(--section-bg);
 }
 
 .title-large {
@@ -580,7 +606,7 @@ a {
 }
 
 .bento-card p {
-    color: #555;
+    color: var(--text-sub);
     /* Darker gray for better readability */
     font-size: 1rem;
     line-height: 1.6;
@@ -612,7 +638,7 @@ a {
     padding-top: 140px;
     /* Space for fixed header */
     padding-bottom: 80px;
-    background: #fafafa;
+    background: var(--section-bg);
     min-height: 100vh;
 }
 
@@ -658,7 +684,7 @@ a {
     margin-bottom: 24px;
     line-height: 1.8;
     font-size: 1.1rem;
-    color: #333;
+    color: var(--text-lead);
 }
 
 .rich-text h3 {
@@ -682,11 +708,11 @@ a {
 }
 
 .booking-widget {
-    background: #fff;
+    background: var(--card-bg);
     padding: 32px;
     border-radius: 24px;
     box-shadow: var(--shadow-lg);
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--border-color);
 }
 
 .sticky-widget {
@@ -709,7 +735,7 @@ a {
 .benefit-list li {
     margin-bottom: 12px;
     font-weight: 500;
-    color: #555;
+    color: var(--text-sub);
 }
 
 .full-width {
@@ -726,7 +752,7 @@ a {
 
 /* Visual Feature Box */
 .visual-feature-box {
-    background: #fff;
+    background: var(--card-bg);
     border-radius: 24px;
     padding: 40px;
     margin: 40px 0;
@@ -734,7 +760,7 @@ a {
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-    border: 1px solid rgba(0, 0, 0, 0.03);
+    border: 1px solid var(--border-color);
 }
 
 .vf-content h3 {
@@ -822,11 +848,11 @@ a {
 }
 
 .faq-item {
-    background: #fff;
+    background: var(--card-bg);
     margin-bottom: 16px;
     border-radius: 16px;
     overflow: hidden;
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--border-color);
     transition: all 0.3s ease;
 }
 
@@ -862,17 +888,17 @@ a {
 }
 
 .faq-item[open] .faq-question {
-    background: #fff;
+    background: var(--card-bg);
     /* Keep white */
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .faq-answer {
     padding: 24px;
     padding-top: 0;
-    color: #555;
+    color: var(--text-sub);
     line-height: 1.6;
-    background: #fff;
+    background: var(--card-bg);
     animation: fadeIn 0.3s ease;
 }
 
@@ -1152,7 +1178,7 @@ a {
 /* Shoe Section */
 .shoe-section {
     padding: 100px 0;
-    background: #f8f8f8;
+    background: var(--section-bg);
     overflow: hidden;
 }
 
@@ -1176,7 +1202,7 @@ a {
 
 .badge-pill {
     background: var(--primary);
-    color: var(--dark);
+    color: #000000;
     padding: 6px 16px;
     border-radius: 50px;
     font-size: 0.9rem;
@@ -1194,7 +1220,7 @@ a {
 .shoe-features li {
     font-size: 1.1rem;
     margin-bottom: 12px;
-    color: #444;
+    color: var(--text-sub);
     font-weight: 500;
 }
 
@@ -1262,4 +1288,43 @@ a {
         max-width: 350px;
         margin: 0 auto;
     }
+}
+
+/* Theme Toggle Button */
+.btn-icon {
+    background: none;
+    border: none;
+    color: var(--dark);
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    transition: background 0.3s ease, color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+}
+
+.btn-icon:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] .btn-icon:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.icon-sun {
+    display: none;
+}
+
+.icon-moon {
+    display: block;
+}
+
+[data-theme="dark"] .icon-sun {
+    display: block;
+}
+
+[data-theme="dark"] .icon-moon {
+    display: none;
 }
