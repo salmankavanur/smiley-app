@@ -945,7 +945,7 @@ a {
 
 .faq-answer {
     padding: 24px;
-    padding-top: 0;
+    padding-top: 24px;
     color: var(--text-sub);
     line-height: 1.6;
     background: var(--card-bg);
