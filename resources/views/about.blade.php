@@ -61,6 +61,44 @@
             </div>
         </section>
 
+        <!-- FAQ Section -->
+        <section class="faq-section" style="padding: 80px 0; background-color: var(--section-bg);">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+                <div class="faq-list" style="max-width: 800px; margin: 0 auto; margin-top: 40px;">
+                    <details class="faq-item">
+                        <summary class="faq-question">
+                            Do you offer free pickup and delivery?
+                            <span class="toggle-icon">+</span>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>Yes, we offer free pickup and delivery in Manjeri and nearby areas. Contact us via WhatsApp to schedule.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">
+                            What is your standard turnaround time?
+                            <span class="toggle-icon">+</span>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>Standard service takes 3-4 days. Express service is available for urgent needs.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-question">
+                            What services do you offer?
+                            <span class="toggle-icon">+</span>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>We offer Dry Cleaning, Steam Ironing, Shoe Laundry, Carpet Cleaning, Curtain Cleaning, and Bag/Toy Cleaning.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
         <!-- Location / CTA -->
         <section class="location-section">
             <div class="container text-center">
@@ -82,7 +120,7 @@
         .about-hero {
             padding: 80px 0;
             text-align: center;
-            background-color: var(--bg-light);
+            background-color: var(--body-bg);
         }
 
         .about-hero h1 {
@@ -116,7 +154,7 @@
 
         .story-content p {
             font-size: 1.1rem;
-            color: #555;
+            color: var(--text-sub);
             margin-bottom: 16px;
             line-height: 1.6;
         }
@@ -139,7 +177,7 @@
             font-size: 80px;
             font-weight: 800;
             margin-bottom: 16px;
-            color: var(--dark);
+            color: #000000;
         }
 
         .values-section {

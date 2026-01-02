@@ -238,6 +238,58 @@
         </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section class="faq-section-home" style="padding: 100px 0; background-color: var(--body-bg);">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Frequently Asked Questions</h2>
+                <p>Common questions about our dry cleaning service.</p>
+            </div>
+            
+            <div class="faq-list" style="max-width: 800px; margin: 0 auto;">
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        Do you offer free pickup and delivery?
+                        <span class="toggle-icon">+</span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Yes, we offer free pickup and delivery in Manjeri and nearby areas for orders. Contact us via WhatsApp to check if your location is covered.</p>
+                    </div>
+                </details>
+                
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        What is your standard turnaround time?
+                        <span class="toggle-icon">+</span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>Our standard service takes 3-4 days. We also offer express service for urgent requirements.</p>
+                    </div>
+                </details>
+                
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        Do you remove all kinds of stains?
+                        <span class="toggle-icon">+</span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>We use premium spotting agents to treat stains. While we successfully remove most stains, some old set-in stains might not be completely removable without damaging the fabric.</p>
+                    </div>
+                </details>
+                
+                <details class="faq-item">
+                    <summary class="faq-question">
+                        How can I pay for the service?
+                        <span class="toggle-icon">+</span>
+                    </summary>
+                    <div class="faq-answer">
+                        <p>You can pay via Cash, UPI (GPay/PhonePe), or Bank Transfer upon delivery.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
     <!-- CTA Section -->
     <section class="cta-section">
         <div class="container">
