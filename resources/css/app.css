@@ -256,6 +256,28 @@ a {
     color: #000000;
 }
 
+/* Forced Dark Mode Overrides */
+[data-theme="dark"] .service-page-wrapper,
+[data-theme="dark"] .process-section,
+[data-theme="dark"] .services-section,
+[data-theme="dark"] .shoe-section {
+    background-color: var(--section-bg) !important;
+}
+
+[data-theme="dark"] .booking-widget,
+[data-theme="dark"] .visual-feature-box,
+[data-theme="dark"] .faq-item,
+[data-theme="dark"] .faq-answer,
+[data-theme="dark"] .bento-card {
+    background-color: var(--card-bg) !important;
+    border-color: var(--border-color) !important;
+}
+
+[data-theme="dark"] .faq-question {
+    background-color: var(--card-bg) !important;
+    color: var(--dark) !important;
+}
+
 .btn-content {
     display: flex;
     align-items: center;
