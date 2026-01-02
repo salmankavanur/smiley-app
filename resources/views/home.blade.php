@@ -22,7 +22,7 @@
                     </a>
                     <div class="rating-badge">
                         <span class="stars">★★★★★</span>
-                        <span class="text">Trusted by 1000+ Locals</span>
+                        <span class="text">Trusted by 500+ People</span>
                     </div>
                 </div>
             </div>
